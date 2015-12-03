@@ -11,7 +11,7 @@
 		var url = "http://x.mirman.org:1031/ground4loor"
 		console.log(data);
 
-    $.post(url, data, functiton(dat){
+    $.post(url, data, function(dat){
       console.log(dat);
     });
   });
